@@ -12,6 +12,8 @@
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.neo.deutsch(bone)</string>
 		<key>TISIntendedLanguage</key>
@@ -21,6 +23,8 @@
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.neo.deutsch(neo2)</string>
 		<key>TISIntendedLanguage</key>
@@ -30,6 +34,8 @@
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.neo.deutsch(neoqwertz)</string>
 		<key>TISIntendedLanguage</key>
