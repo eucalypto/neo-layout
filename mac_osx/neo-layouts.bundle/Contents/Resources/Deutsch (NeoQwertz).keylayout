@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 346 on 2022-06-19 at 16:38 (CEST)-->
+<!--Last edited by Ukelele version 396 on 2024-09-15 at 15:25 (GMT+2)-->
 <keyboard group="126" id="-7045" name="Deutsch (NeoQwertz)" maxout="3">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -2360,6 +2360,7 @@
             <when state="Ebene 3 T3 Schrägstrich" output="Ħ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ḣ"/>
             <when state="Ebene 4 T2 Trema Diaeresis" output="Ḧ"/>
+            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ḥ"/>
             <when state="Ebene 6 T3 Breve" output="Ḫ"/>
             <when state="compose -" output="Ħ"/>
@@ -2389,7 +2390,6 @@
             <when state="none" output="K"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǩ"/>
             <when state="Ebene 2 T2 Cedille" output="Ķ"/>
-            <when state="Ebene 4 und 6" output="¡"/>
             <when state="Ebene 5 T1 Haken" output="Ƙ"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ḳ"/>
             <when state="Ebene 6 T2 Macron" output="Ḵ"/>
@@ -2439,7 +2439,6 @@
             <when state="Ebene 2 T2 Cedille" output="Ş"/>
             <when state="Ebene 3 T1 Drehen" output="Ƨ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ṡ"/>
-            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ṣ"/>
             <!--<when state="compose" next="compose S"/>-->
         </action>
@@ -2874,6 +2873,7 @@
             <when state="Ebene 2 T1 Caron Hatschek" output="Ž"/>
             <when state="Ebene 3 T3 Schrägstrich" output="Ƶ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ż"/>
+            <when state="Ebene 4 und 6" output="¡"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ẓ"/>
             <when state="Ebene 6 T2 Macron" output="Ẕ"/>
             <when state="caron compose D" output="Ǆ"/>

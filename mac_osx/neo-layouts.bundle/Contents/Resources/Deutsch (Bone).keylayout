@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 346 on 2022-06-19 at 16:37 (CEST)-->
-<keyboard group="126" id="-14683" name="Deutsch (Bone)" maxout="3">
+<!--Last edited by Ukelele version 396 on 2024-09-15 at 15:25 (GMT+2)-->
+<keyboard group="126" id="-5743" name="Deutsch (Bone)" maxout="3">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
     </layouts>
@@ -107,6 +107,7 @@
             <key code="76" output="&#x000D;"/>
             <key code="77" output="&#x001E;"/>
             <key code="78" output="-"/>
+            <key code="79" output=""/>
             <key code="80" output="&#x0010;"/>
             <key code="81" output="="/>
             <key code="82" output="0"/>
@@ -2333,6 +2334,7 @@
             <when state="none" output="B"/>
             <when state="Ebene 3 T1 Drehen" output="𐐒"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ḃ"/>
+            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 5 T1 Haken" output="Ɓ"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ḅ"/>
             <when state="Ebene 6 T2 Macron" output="Ḇ"/>
@@ -2434,7 +2436,6 @@
             <when state="none" output="K"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǩ"/>
             <when state="Ebene 2 T2 Cedille" output="Ķ"/>
-            <when state="Ebene 4 und 6" output="¡"/>
             <when state="Ebene 5 T1 Haken" output="Ƙ"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ḳ"/>
             <when state="Ebene 6 T2 Macron" output="Ḵ"/>
@@ -2454,6 +2455,7 @@
             <when state="none" output="P"/>
             <when state="Ebene 3 T1 Drehen" output="Ԁ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ṗ"/>
+            <when state="Ebene 4 und 6" output="¡"/>
             <when state="Ebene 5 T1 Haken" output="Ƥ"/>
         </action>
         <action id="40">
