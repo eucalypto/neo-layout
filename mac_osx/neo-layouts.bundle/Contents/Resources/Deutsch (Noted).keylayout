@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Last edited by Ukelele version 396 on 2024-09-15 at 15:45 (GMT+2)-->
-<keyboard group="126" id="-5743" name="Deutsch (Noted)" maxout="3">
+<keyboard group="126" id="-5713" name="Deutsch (Noted)" maxout="3">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
     </layouts>
