@@ -1481,7 +1481,7 @@
         </action>
         <action id="126">
             <when state="none" output="ẞ"/>
-            <when state="Ebene 4 und 6" output="−"/>
+            <when state="Ebene 4 und 6" output=";"/>
         </action>
         <action id="127">
             <when state="none" output="–"/>
@@ -2409,6 +2409,7 @@
         </action>
         <action id="32">
             <when state="none" output="H"/>
+            <when state="Ebene 4 und 6" output="."/>
             <when state="Ebene 1 T1 Zirkumflex" output="Ĥ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ȟ"/>
             <when state="Ebene 2 T2 Cedille" output="Ḩ"/>
@@ -2428,6 +2429,7 @@
         </action>
         <action id="34">
             <when state="none" output="J"/>
+            <when state="Ebene 4 und 6" output="−"/>
             <when state="Ebene 1 T1 Zirkumflex" output="Ĵ"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="J̌"/>
             <when state="Ebene 3 T1 Drehen" output="ſ"/>
@@ -2442,6 +2444,7 @@
         </action>
         <action id="36">
             <when state="none" output="K"/>
+            <when state="Ebene 4 und 6" output=","/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǩ"/>
             <when state="Ebene 2 T2 Cedille" output="Ķ"/>
             <when state="Ebene 5 T1 Haken" output="Ƙ"/>
