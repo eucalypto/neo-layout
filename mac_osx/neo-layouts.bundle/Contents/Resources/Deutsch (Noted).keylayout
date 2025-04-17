@@ -536,16 +536,16 @@
             <key code="29" output="’"/>
             <key code="30" output="ſ"/>
             <key code="31" action="="/>
-            <key code="32" action="<"/>
+            <key code="32" action="less_than"/>
             <key code="33" output="@"/>
             <key code="34" action=">"/>
             <key code="35" output="&#x0026;"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="-"/>
-            <key code="38" action="("/>
+            <key code="38" output="("/>
             <key code="39" output=""/>
             <key code="40" output=")"/>
-            <key code="41" action="<"/>
+            <key code="41" action="less_than"/>
             <key code="42" action="2"/>
             <key code="43" output="&#x0022;"/>
             <key code="44" output=";"/>
@@ -762,7 +762,7 @@
             <key code="29" output="’"/>
             <key code="30" output="ſ"/>
             <key code="31" action="="/>
-            <key code="32" action="<"/>
+            <key code="32" action="less_than"/>
             <key code="33" output="…"/>
             <key code="34" action=">"/>
             <key code="35" output="#"/>
@@ -771,7 +771,7 @@
             <key code="38" action="/"/>
             <key code="39" output=""/>
             <key code="40" output="("/>
-            <key code="41" action="<"/>
+            <key code="41" action="less_than"/>
             <key code="42" action="2"/>
             <key code="43" output="&#x0022;"/>
             <key code="44" output=";"/>
@@ -3156,8 +3156,8 @@
             <when state="Ebene 5 T1 Haken" output="ƈ"/>
             <!--<when state="compose" next="compose c"/>-->
         </action>
-        <action id="<">
-            <when state="none" output="<"/>
+        <action id="less_than">
+            <when state="none" output="&#x003C;"/>
             <when state="Ebene 3 T3 Schrägstrich" output="≮"/>
             <when state="compose" next="compose less"/>
             <when state="compose less" output="≪"/>
