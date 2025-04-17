@@ -517,7 +517,7 @@
             <key code="10" action="125"/>
             <key code="11" output="`"/>
             <key code="12" output="…"/>
-            <key code="13" action="+"/>
+            <key code="13" output="_"/>
             <key code="14" output="["/>
             <key code="15" output="]"/>
             <key code="16" output="!"/>
@@ -549,7 +549,7 @@
             <key code="42" action="2"/>
             <key code="43" output="&#x0022;"/>
             <key code="44" output=";"/>
-            <key code="45" output="+"/>
+            <key code="45" action="+"/>
             <key code="46" output="%"/>
             <key code="47" action="&#x0027;"/>
             <key code="48" action="compose"/>
@@ -1197,20 +1197,20 @@
             <when state="none" output="&#x0027;"/>
         </action>
         <action id="+">
-            <when state="none" output="_"/>
+            <when state="none" output="+"/>
             <when state="Ebene 1 T1 Zirkumflex" output="⁺"/>
             <when state="compose" next="compose +"/>
             <when state="compose -" output="∓"/>
         </action>
         <action id="-">
-            <when state="none" output="/"/>
+            <when state="none" output="-"/>
             <when state="Ebene 1 T1 Zirkumflex" output="⁻"/>
             <when state="compose" next="compose -"/>
             <when state="compose +" output="±"/>
             <when state="compose h" output="ℏ"/>
         </action>
         <action id="/">
-            <when state="none" output="("/>
+            <when state="none" output="/"/>
             <when state="compose" next="Ebene 3 T3 Schrägstrich"/>
             <when state="compose less" next="compose less /"/>
             <when state="compso greater" next="compose greater /"/>
@@ -3131,7 +3131,7 @@
             <when state="compose I" output="İ"/>
         </action>
         <action id="96">
-            <when state="none" output="#"/>
+            <when state="none" output="$"/>
             <when state="Ebene 4 T1 Punkt darüber" output="…"/>
             <when state="Ebene 4 T3 Doppelakut" output="‚"/>
         </action>
@@ -3162,7 +3162,7 @@
             <!--<when state="compose" next="compose c"/>-->
         </action>
         <action id="&#x003C;">
-            <when state="none" output=":"/>
+            <when state="none" output="&#x003C;"/>
             <when state="Ebene 3 T3 Schrägstrich" output="≮"/>
             <when state="compose" next="compose less"/>
             <when state="compose less" output="≪"/>
@@ -3170,7 +3170,7 @@
             <when state="compso greater" output="≷"/>
         </action>
         <action id="=">
-            <when state="none" output="&#x003E;"/>
+            <when state="none" output="="/>
             <when state="Ebene 3 T3 Schrägstrich" output="≠"/>
             <when state="compose" next="compose ="/>
             <when state="compose /" output="≠"/>
@@ -3181,7 +3181,7 @@
             <when state="compso greater" output="≥"/>
         </action>
         <action id="&#x003E;">
-            <when state="none" output="="/>
+            <when state="none" output="&#x003E;"/>
             <when state="Ebene 3 T3 Schrägstrich" output="≯"/>
             <when state="compose" next="compso greater"/>
             <when state="compose less" output="≶"/>
