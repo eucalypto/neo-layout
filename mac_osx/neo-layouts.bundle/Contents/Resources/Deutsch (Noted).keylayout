@@ -731,23 +731,23 @@
         </keyMap>
         <keyMap index="6">
             <key code="0" output="\"/>
-            <key code="1" action="-"/>
+            <key code="1" action="/"/>
             <key code="2" output="{"/>
             <key code="3" output="}"/>
-            <key code="4" output="_"/>
+            <key code="4" output="?"/>
             <key code="5" output="*"/>
             <key code="6" output="#"/>
-            <key code="7" output="^"/>
+            <key code="7" output="$"/>
             <key code="8" action="|"/>
             <key code="9" action="~"/>
             <key code="10" action="125"/>
             <key code="11" output="`"/>
-            <key code="12" output="%"/>
-            <key code="13" action="+"/>
+            <key code="12" output="…"/>
+            <key code="13" output="_"/>
             <key code="14" output="["/>
             <key code="15" output="]"/>
             <key code="16" output="!"/>
-            <key code="17" output="@"/>
+            <key code="17" output="^"/>
             <key code="18" output="¹"/>
             <key code="19" output="²"/>
             <key code="20" output="³"/>
@@ -763,20 +763,20 @@
             <key code="30" output="ſ"/>
             <key code="31" action="="/>
             <key code="32" action="less_than"/>
-            <key code="33" output="…"/>
+            <key code="33" output="@"/>
             <key code="34" action=">"/>
-            <key code="35" output="#"/>
+            <key code="35" output="&#x0026;"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output=")"/>
-            <key code="38" action="/"/>
+            <key code="37" output="-"/>
+            <key code="38" output="("/>
             <key code="39" output=""/>
-            <key code="40" output="("/>
-            <key code="41" action="less_than"/>
+            <key code="40" output=")"/>
+            <key code="41" output=":"/>
             <key code="42" action="2"/>
             <key code="43" output="&#x0022;"/>
             <key code="44" output=";"/>
-            <key code="45" output="&#x0026;"/>
-            <key code="46" output=":"/>
+            <key code="45" action="+"/>
+            <key code="46" output="%"/>
             <key code="47" action="&#x0027;"/>
             <key code="48" action="compose"/>
             <key code="49" output=" "/>
@@ -785,30 +785,30 @@
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
-            <key code="65" output=""/>
+            <key code="65" output=","/>
             <key code="66" output="&#x001D;"/>
-            <key code="67" output=""/>
-            <key code="69" output=""/>
+            <key code="67" output="⋅"/>
+            <key code="69" output="±"/>
             <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
+            <key code="71" output="="/>
             <key code="72" output="&#x001F;"/>
-            <key code="75" output=""/>
+            <key code="75" output="÷"/>
             <key code="76" output="&#x0003;"/>
             <key code="77" output="&#x001E;"/>
-            <key code="78" output=""/>
+            <key code="78" output="−"/>
             <key code="79" output="&#x0010;"/>
             <key code="80" output="&#x0010;"/>
             <key code="81" output=""/>
-            <key code="82" output=""/>
-            <key code="83" output=""/>
-            <key code="84" output=""/>
-            <key code="85" output=""/>
-            <key code="86" output=""/>
-            <key code="87" output=""/>
-            <key code="88" output=""/>
-            <key code="89" output=""/>
-            <key code="91" output=""/>
-            <key code="92" output=""/>
+            <key code="82" output="%"/>
+            <key code="83" output="↔"/>
+            <key code="84" output="↓"/>
+            <key code="85" output="⇌"/>
+            <key code="86" output="←"/>
+            <key code="87" output=":"/>
+            <key code="88" output="→"/>
+            <key code="89" output="↕"/>
+            <key code="91" output="↑"/>
+            <key code="92" output="⃗"/>
             <key code="96" output="&#x0010;"/>
             <key code="97" output="&#x0010;"/>
             <key code="98" output="&#x0010;"/>
