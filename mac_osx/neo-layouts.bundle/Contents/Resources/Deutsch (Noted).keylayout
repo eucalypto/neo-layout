@@ -545,7 +545,7 @@
             <key code="38" output="("/>
             <key code="39" output=""/>
             <key code="40" output=")"/>
-            <key code="41" action="less_than"/>
+            <key code="41" output=":"/>
             <key code="42" action="2"/>
             <key code="43" output="&#x0022;"/>
             <key code="44" output=";"/>
