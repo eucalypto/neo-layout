@@ -52,5 +52,16 @@
 		<key>TISIntendedLanguage</key>
 		<string>de</string>
 	</dict>
+	<key>KLInfo_Deutsch (Mine)</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.neo.deutsch(mine)</string>
+		<key>TISIntendedLanguage</key>
+		<string>de</string>
+	</dict>
 </dict>
 </plist>
