@@ -1351,7 +1351,6 @@
             <when state="Ebene 2 T2 Cedille" output="Ş"/>
             <when state="Ebene 3 T1 Drehen" output="Ƨ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ṡ"/>
-            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ṣ"/>
             <!--<when state="compose" next="compose S"/>-->
         </action>
@@ -2182,7 +2181,6 @@
             <when state="none" output="B"/>
             <when state="Ebene 3 T1 Drehen" output="𐐒"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ḃ"/>
-            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 5 T1 Haken" output="Ɓ"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ḅ"/>
             <when state="Ebene 6 T2 Macron" output="Ḇ"/>
@@ -2200,6 +2198,7 @@
         </action>
         <action id="_D">
             <when state="none" output="D"/>
+            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ď"/>
             <when state="Ebene 2 T2 Cedille" output="Ḑ"/>
             <when state="Ebene 3 T3 Schrägstrich" output="Đ"/>
@@ -2351,7 +2350,6 @@
             <when state="Ebene 2 T2 Cedille" output="Ş"/>
             <when state="Ebene 3 T1 Drehen" output="Ƨ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ṡ"/>
-            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ṣ"/>
             <!--<when state="compose" next="compose S"/>-->
         </action>
