@@ -1905,7 +1905,7 @@
         </action>
         <action id="74">
             <when state="none" output="ϵ"/>
-            <when state="Ebene 4 und 6" output="∩"/>
+            <when state="Ebene 4 und 6" output="⊂"/>
         </action>
         <action id="8">
             <when state="none" output="$"/>
@@ -2902,7 +2902,7 @@
         </action>
         <action id="action 2">
             <when state="none" output=""/>
-            <when state="Ebene 4 und 6" output="⊂"/>
+            <when state="Ebene 4 und 6" output="×"/>
         </action>
         <action id="action 3">
             <when state="none" output="/"/>
@@ -2991,7 +2991,7 @@
         </action>
         <action id="β">
             <when state="none" output="β"/>
-            <when state="Ebene 4 und 6" output="⇐"/>
+            <when state="Ebene 4 und 6" output="∂"/>
         </action>
         <action id="γ">
             <when state="none" output="γ"/>
@@ -3011,7 +3011,7 @@
         </action>
         <action id="η">
             <when state="none" output="η"/>
-            <when state="Ebene 4 und 6" output="ℵ"/>
+            <when state="Ebene 4 und 6" output="∩"/>
         </action>
         <action id="θ">
             <when state="none" output="θ"/>
@@ -3023,7 +3023,7 @@
         </action>
         <action id="κ">
             <when state="none" output="κ"/>
-            <when state="Ebene 4 und 6" output="×"/>
+            <when state="Ebene 4 und 6" output="⇒"/>
         </action>
         <action id="λ">
             <when state="none" output="λ"/>
@@ -3031,7 +3031,7 @@
         </action>
         <action id="μ">
             <when state="none" output="μ"/>
-            <when state="Ebene 4 und 6" output="⇔"/>
+            <when state="Ebene 4 und 6" output="↦"/>
         </action>
         <action id="ν">
             <when state="none" output="ν"/>
@@ -3063,11 +3063,11 @@
         </action>
         <action id="τ">
             <when state="none" output="τ"/>
-            <when state="Ebene 4 und 6" output="∂"/>
+            <when state="Ebene 4 und 6" output="∇"/>
         </action>
         <action id="υ">
             <when state="none" output="υ"/>
-            <when state="Ebene 4 und 6" output="∇"/>
+            <when state="Ebene 4 und 6" output="ℵ"/>
         </action>
         <action id="φ">
             <when state="none" output="φ"/>
@@ -3087,7 +3087,7 @@
         </action>
         <action id="ϑ">
             <when state="none" output="ϑ"/>
-            <when state="Ebene 4 und 6" output="↦"/>
+            <when state="Ebene 4 und 6" output="⇔"/>
         </action>
         <action id="ϕ">
             <when state="none" output="ϕ"/>
@@ -3099,7 +3099,7 @@
         </action>
         <action id="ϱ">
             <when state="none" output="ϱ"/>
-            <when state="Ebene 4 und 6" output="⇒"/>
+            <when state="Ebene 4 und 6" output="⇐"/>
         </action>
         <action id="_᾿">
             <when state="none" next="Ebene 5 Spiritus lenis"/>
