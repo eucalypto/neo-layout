@@ -197,7 +197,7 @@
             <key code="41" action="_H"/>
             <key code="42" action="60"/>
             <key code="43" action="127"/>
-            <key code="44" action="36"/>
+            <key code="44" action="_K"/>
             <key code="45" action="48"/>
             <key code="46" action="30"/>
             <key code="47" action="132"/>
@@ -1791,7 +1791,7 @@
             <when state="compose I" output="Ĳ"/>
             <when state="compose N" output="Ǌ"/>
         </action>
-        <action id="36">
+        <action id="_K">
             <when state="none" output="K"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǩ"/>
             <when state="Ebene 2 T2 Cedille" output="Ķ"/>
