@@ -169,7 +169,7 @@
             <key code="13" action="_L"/>
             <key code="14" action="_U"/>
             <key code="15" action="_A"/>
-            <key code="16" action="48"/>
+            <key code="16" action="_W"/>
             <key code="17" action="_Q"/>
             <key code="18" action="119"/>
             <key code="19" action="_§"/>
@@ -1351,7 +1351,6 @@
             <when state="Ebene 2 T2 Cedille" output="Ş"/>
             <when state="Ebene 3 T1 Drehen" output="Ƨ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ṡ"/>
-            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ṣ"/>
             <!--<when state="compose" next="compose S"/>-->
         </action>
@@ -1447,7 +1446,6 @@
             <when state="none" output="k"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ǩ"/>
             <when state="Ebene 2 T2 Cedille" output="Ķ"/>
-            <when state="Ebene 4 und 6" output="¡"/>
             <when state="Ebene 5 T1 Haken" output="Ƙ"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ḳ"/>
             <when state="Ebene 6 T2 Macron" output="Ḵ"/>
@@ -1802,8 +1800,9 @@
             <when state="none" output="T"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ť"/>
         </action>
-        <action id="48">
+        <action id="_W">
             <when state="none" output="W"/>
+            <when state="Ebene 4 und 6" output="¡"/>
             <when state="Ebene 1 T1 Zirkumflex" output="Ŵ"/>
             <when state="Ebene 1 T2 Gravis" output="Ẁ"/>
             <when state="Ebene 3 T1 Drehen" output="M"/>
@@ -2167,7 +2166,6 @@
             <when state="none" output="B"/>
             <when state="Ebene 3 T1 Drehen" output="𐐒"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ḃ"/>
-            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 5 T1 Haken" output="Ɓ"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ḅ"/>
             <when state="Ebene 6 T2 Macron" output="Ḇ"/>
@@ -2279,6 +2277,7 @@
         </action>
         <action id="_M">
             <when state="none" output="M"/>
+            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 3 T1 Drehen" output="W"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ṁ"/>
             <when state="Ebene 5 T1 Haken" output="Ɱ"/>
@@ -2324,7 +2323,6 @@
             <when state="none" output="P"/>
             <when state="Ebene 3 T1 Drehen" output="Ԁ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ṗ"/>
-            <when state="Ebene 4 und 6" output="¡"/>
             <when state="Ebene 5 T1 Haken" output="Ƥ"/>
         </action>
         <action id="_Q">
@@ -2350,7 +2348,6 @@
             <when state="Ebene 2 T2 Cedille" output="Ş"/>
             <when state="Ebene 3 T1 Drehen" output="Ƨ"/>
             <when state="Ebene 4 T1 Punkt darüber" output="Ṡ"/>
-            <when state="Ebene 4 und 6" output="¿"/>
             <when state="Ebene 6 T1 Punkt darunter" output="Ṣ"/>
             <!--<when state="compose" next="compose S"/>-->
         </action>
