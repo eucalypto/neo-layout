@@ -2265,7 +2265,6 @@
             <when state="Ebene 2 T1 Caron Hatschek" output="J̌"/>
             <when state="Ebene 3 T1 Drehen" output="ſ"/>
             <when state="Ebene 3 T3 Schrägstrich" output="ɟ"/>
-            <when state="Ebene 4 und 6" output="−"/>
         </action>
         <action id="_L">
             <when state="none" output="L"/>
@@ -2415,6 +2414,7 @@
         </action>
         <action id="_Z">
             <when state="none" output="Z"/>
+            <when state="Ebene 4 und 6" output="−"/>
             <when state="Ebene 1 T3 Akut" output="Ź"/>
             <when state="Ebene 2 T1 Caron Hatschek" output="Ž"/>
             <when state="Ebene 3 T3 Schrägstrich" output="Ƶ"/>
