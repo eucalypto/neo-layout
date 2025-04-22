@@ -646,7 +646,7 @@
             <key code="27" action="71"/>
             <key code="28" action="⟨"/>
             <key code="29" action="₀"/>
-            <key code="30" action="᾿"/>
+            <key code="30" action="_᾿"/>
             <key code="31" action="μ"/>
             <key code="32" action="ψ"/>
             <key code="33" action="ς"/>
@@ -3449,7 +3449,7 @@
             <when state="none" output="ϱ"/>
             <when state="Ebene 4 und 6" output="⇒"/>
         </action>
-        <action id="᾿">
+        <action id="_᾿">
             <when state="none" next="Ebene 5 Spiritus lenis"/>
             <when state="Ebene 4 und 6" next="Ebene 6 T3 Breve"/>
         </action>
